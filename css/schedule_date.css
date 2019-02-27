@@ -1,0 +1,151 @@
+ul {
+	list-style-type: none;
+}
+body {
+	font-family: Verdana, sans-serif;
+	font-size:14px;
+}
+
+h1{
+	font-size:20px;
+}
+
+h2{
+	font-size:15px;
+}
+
+h3{
+	font-size:13px;
+}
+
+.booking_a_time{
+	font-family:'Source Sans Pro', sans-serif;
+	float:left;
+	text-align:center;
+	margin:15px 30px 15px 35px;
+}
+#book_parent{
+	margin-right:135px;
+}
+
+.call_to_book{
+	float:right;
+	text-align:center;
+	margin:15px 15px 5px 5px;
+	padding-top:8px;
+}
+
+#calendar{
+	width:430px;
+	height:380px;
+	margin:25px 75px 0px 15px;
+	float:right;
+	font-family:'Source Sans Pro', sans-serif;
+}
+
+.bottom_columns{
+	column-count:2;
+	height:200px;
+	margin:25px;
+}
+.bottom_columns #second_column{
+	margin-left:19px;
+	margin-top:25px;
+	padding:1px;
+}
+
+.hourly_schedule #hourly{
+	margin:25px 50px 10px 15px;
+	width:350px;
+	float:right;
+}
+
+.classroom #studio{
+	width:950px;
+	float:left;
+	margin: 5px auto;
+	margin-left: 25px;
+}
+
+.month {
+    padding-bottom: 40px;
+	float:right;
+    width: 425px;
+	height:15px;
+    background: #E27866;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.month ul li {
+    color:#000000;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+	color:#000000;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+	color:#000000;
+}
+
+.weekdays {
+    margin: 0px;
+    padding: 10px 0px 5px 0px;
+    background-color:#dddddd;
+	width: 425px;
+	float:right;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 60px;
+    color: #666666;
+    text-align: center;
+	float:right;
+}
+
+.days {
+    padding: 10px 0px;
+    background: #F0F0F0;
+    margin: 0px;
+	width:425px;
+	float:right;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size:12px;
+    color: #666666;
+	float:right;
+}
+
+.days li.left_date_1{
+	float:left;
+	padding-left:5px;
+}
+.days li.left_date_2{
+	float:left;
+	padding-left:0px;
+}
+
+.days li .active {
+    padding: 5px 2px 0px 2px;
+    background: #E27866;
+    color: #ffffff;
+}
